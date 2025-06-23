@@ -20,7 +20,7 @@ body, html {
 }
 
 main {
-    position: relative;
+    position: relative; 
     width: 100vw;
     height: 100vh;
 }
@@ -31,7 +31,9 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden ;
-    
+
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+
     width: 250px;
     height: 450px;
     background-color: white;
