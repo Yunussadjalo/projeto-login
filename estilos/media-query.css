@@ -33,16 +33,24 @@
         }
         
         section#login > div#imagem { 
-            float: left; /* Ajusta a imagem para ocupar a metade esquerda */
+            float: right; /* Ajusta a imagem para ocupar a metade esquerda */
             width: 50%; /* Ajusta a largura da imagem para telas maiores */
             height: 100%; /* Mantém a altura total do container */
         }
 
         section#login > div#formulario {
-            float: right; /* Ajusta o formulário para ocupar a metade direita */
+            float: left; /* Ajusta o formulário para ocupar a metade direita */
             width: 50%; /* Ajusta a largura do formulário para telas maiores */ 
         }
-    }
-        
+
+        section#login > div#formulario > h1 {
+        text-align: center;
+        font-size: 2em; /* Aumenta o tamanho da fonte do título */
+        }
     
- 
+
+    section#login > div#formulario > p {
+        font-size: 1.8em ;
+    }
+    
+ }
