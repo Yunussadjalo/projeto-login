@@ -34,8 +34,8 @@ section#login {
 
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
 
-    width: 250px;
-    height: 450px;
+    width: 300px;
+    height: 500px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -55,4 +55,9 @@ section#login > div#formulario {
 
 section#login > div#formulario > h1 {
     text-align: center;
+    margin-bottom: 10px;
+}
+section#login > div#formulario > p {
+    font-size: 0.8em;
+
 }
