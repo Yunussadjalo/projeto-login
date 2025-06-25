@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
- @media  screen and (min-width: 768px) and (max-width: 992px) {
-
+    /* Ajusta o estilo para telas entre 768px e 992px */
+ @media  screen and (min-width: 768px) and (max-width: 992px) { 
     body {
        background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login {
         width: 80vw;
+        height: 280px;
         
     }
 
@@ -23,13 +24,14 @@
     }
 
     }
-    
+    /* Ajusta o estilo para telas maiores que 992px */
     @media  screen and (min-width: 992px) {
         body {
        background-image: linear-gradient(to bottom, #49a09d, #602c82);
     }
         section#login {
             width: 950px; /* Ajusta a largura do container para telas maiores */
+            height: 350px; /* Ajusta a altura do container para telas maiores */
         }
         
         section#login > div#imagem { 
@@ -51,6 +53,7 @@
 
     section#login > div#formulario > p {
         font-size: 1.2em ;
+        margin: 10px 0; /* Adiciona margem para espaçamento */
     }
     
  }
