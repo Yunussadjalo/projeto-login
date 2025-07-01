@@ -20,18 +20,18 @@ body, html {
 }
 
 main {
-    position: relative; 
     width: 100vw;
     height: 100vh;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
 }
 
 section#login {
-    position: absolute;
-    top: 50%;
-    left: 50%;  
-    transform: translate(-50%, -50%);
     overflow: hidden ;
-
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
 
     width: 280px;
